@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScappleDocument Version="1.2" ID="C4F4F456-93C8-48DA-BE7D-ED28685960E1">
+    <Notes>
+        <Note ID="0" FontSize="28.0" Position="1761.374634,751.039307" Width="390.0">
+            <Appearance></Appearance>
+            <String>Self management Accounting Software UML</String>
+            <ConnectedNoteIDs>1, 3</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Bold="Yes">0,39</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="1" FontSize="12.0" Position="2351.905029,876.220825" Width="84.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Visualization</String>
+            <ConnectedNoteIDs>0, 23, 30</ConnectedNoteIDs>
+        </Note>
+        <Note ID="3" FontSize="12.0" Position="1837.0,502.0" Width="109.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Class : Accouting</String>
+            <ConnectedNoteIDs>0, 4-7</ConnectedNoteIDs>
+        </Note>
+        <Note ID="4" FontSize="12.0" Position="2061.276855,363.433441" Width="42.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Date</String>
+            <ConnectedNoteIDs>3</ConnectedNoteIDs>
+        </Note>
+        <Note ID="5" FontSize="12.0" Position="2061.276855,391.433441" Width="63.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>category</String>
+            <ConnectedNoteIDs>3, 9-10, 30</ConnectedNoteIDs>
+        </Note>
+        <Note ID="6" FontSize="12.0" Position="2062.740723,471.69986" Width="45.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>value</String>
+            <ConnectedNoteIDs>3</ConnectedNoteIDs>
+        </Note>
+        <Note ID="7" FontSize="12.0" Position="2062.740723,499.69986" Width="40.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>note</String>
+            <ConnectedNoteIDs>3</ConnectedNoteIDs>
+        </Note>
+        <Note ID="9" FontSize="12.0" Position="2258.0,333.0" Width="125.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Flexible Expenditure</String>
+            <ConnectedNoteIDs>5, 11-12</ConnectedNoteIDs>
+        </Note>
+        <Note ID="10" FontSize="12.0" Position="2271.714844,417.569855" Width="113.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Fixed Expenditure</String>
+            <ConnectedNoteIDs>5, 15-22</ConnectedNoteIDs>
+        </Note>
+        <Note ID="11" FontSize="12.0" Position="2497.25415,216.928345" Width="44.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Food</String>
+            <ConnectedNoteIDs>9, 26</ConnectedNoteIDs>
+        </Note>
+        <Note ID="12" FontSize="12.0" Position="2486.370605,147.896957" Width="53.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Pocket</String>
+            <ConnectedNoteIDs>9, 26</ConnectedNoteIDs>
+        </Note>
+        <Note ID="15" FontSize="12.0" Position="2537.0,448.0" Width="106.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>House subscribe</String>
+            <ConnectedNoteIDs>10</ConnectedNoteIDs>
+        </Note>
+        <Note ID="16" FontSize="12.0" Position="2537.0,476.0" Width="51.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>SEMA</String>
+            <ConnectedNoteIDs>10</ConnectedNoteIDs>
+        </Note>
+        <Note ID="17" FontSize="12.0" Position="2537.0,504.0" Width="68.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Telecome</String>
+            <ConnectedNoteIDs>10</ConnectedNoteIDs>
+        </Note>
+        <Note ID="18" FontSize="12.0" Position="2537.0,532.0" Width="148.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>loan of house rental fees</String>
+            <ConnectedNoteIDs>10</ConnectedNoteIDs>
+        </Note>
+        <Note ID="19" FontSize="12.0" Position="2537.0,560.0" Width="109.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>house rental fees</String>
+            <ConnectedNoteIDs>10</ConnectedNoteIDs>
+        </Note>
+        <Note ID="20" FontSize="12.0" Position="2537.0,588.0" Width="149.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>house management fees</String>
+            <ConnectedNoteIDs>10</ConnectedNoteIDs>
+        </Note>
+        <Note ID="21" FontSize="12.0" Position="2537.0,616.0" Width="151.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>public transportation fees</String>
+            <ConnectedNoteIDs>10</ConnectedNoteIDs>
+        </Note>
+        <Note ID="22" FontSize="12.0" Position="2537.0,644.0" Width="101.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Investment fees</String>
+            <ConnectedNoteIDs>10</ConnectedNoteIDs>
+        </Note>
+        <Note ID="23" FontSize="12.0" Position="2621.387695,862.975647" Width="64.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>TreeMap</String>
+            <ConnectedNoteIDs>1, 28</ConnectedNoteIDs>
+        </Note>
+        <Note ID="24" FontSize="12.0" Position="2972.22583,218.992065" Width="30.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>ㅇ</String>
+            <ConnectedNoteIDs>26, 28</ConnectedNoteIDs>
+        </Note>
+        <Note ID="25" FontSize="12.0" Position="2656.596924,294.370087" Width="97.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Detail category</String>
+        </Note>
+        <Note ID="28" FontSize="12.0" Position="2972.0,855.4198" Width="20.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>ㅇ</String>
+            <ConnectedNoteIDs>23-24</ConnectedNoteIDs>
+        </Note>
+        <Note ID="30" FontSize="12.0" Position="2367.897217,735.210327" Width="108.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Marimekko Chart</String>
+            <ConnectedNoteIDs>1, 5</ConnectedNoteIDs>
+        </Note>
+    </Notes>
+    <BackgroundShapes>
+        <Shape ID="26" Sticky="No" Position="2578.256104,227.483154" Width="254.0" Height="200.0">
+            <Appearance>
+                <Border Weight="1"></Border>
+            </Appearance>
+            <ConnectedNoteIDs>11-12, 24</ConnectedNoteIDs>
+        </Shape>
+    </BackgroundShapes>
+    <Stacks>
+        <Stack>4-5</Stack>
+        <Stack>6-7</Stack>
+        <Stack>15-22</Stack>
+    </Stacks>
+    <AutoFit>1, 3-7, 9-12, 15-23, 25, 30</AutoFit>
+    <NoteStyles>
+        <Style Name="Bubble (Blue)" ID="B8B0763D-F090-43A3-8FD1-59F9471975E2" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.668962 0.810287 0.895092</BorderColor>
+            <FillColor>0.743291 0.900319 0.994547</FillColor>
+        </Style>
+        <Style Name="Bubble (Green)" ID="C903326D-4377-4DAD-8353-E2AF7F2091E6" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.669404 0.885265 0.567007</BorderColor>
+            <FillColor>0.743783 0.983628 0.630008</FillColor>
+        </Style>
+        <Style Name="Bubble (Pink)" ID="18B030A2-5520-4928-9EBB-9E6207CA2611" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.894547 0.707772 0.715904</BorderColor>
+            <FillColor>0.989115 0.814114 0.999483</FillColor>
+        </Style>
+        <Style Name="Bubble (Red)" ID="203E282D-B69B-44CE-95F4-0AD72E99DBDF" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.894547 0.707772 0.715904</BorderColor>
+            <FillColor>0.993942 0.786413 0.795449</FillColor>
+        </Style>
+        <Style Name="Bubble (Yellow)" ID="07AF6E8C-9A74-4764-AF91-182AC5168EE9" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.877748 0.828289 0.562126</BorderColor>
+            <FillColor>0.975275 0.920321 0.624585</FillColor>
+        </Style>
+        <Style Name="Red Text" ID="CD55523A-C2B4-42F3-9ABA-00C736750432" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="Yes" AffectNoteBody="No" AffectFade="No">
+            <TextColor>0.985954 0.0 0.02694</TextColor>
+        </Style>
+        <Style Name="Title Text" ID="F1A74F06-939B-406B-9F50-E3D2C6D87D6B" AffectFontStyle="Yes" AffectAlignment="Yes" AffectTextColor="No" AffectNoteBody="No" AffectFade="No">
+            <FontSize>28.0</FontSize>
+            <IsBold>Yes</IsBold>
+        </Style>
+    </NoteStyles>
+    <UISettings>
+        <BackgroundColor>0.999763 0.988395 0.949915</BackgroundColor>
+        <DefaultFont>Helvetica</DefaultFont>
+        <NoteXPadding>8.0</NoteXPadding>
+    </UISettings>
+    <PrintSettings PaperSize="612.0,792.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="na-letter" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"></PrintSettings>
+</ScappleDocument>
