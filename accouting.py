@@ -5,6 +5,7 @@ class Accounting():
     return self.version
 
   def __init__(self):
+    import re
     self.conn = pymysql.connect(host = "localhost", user = "root", password = "0000", charset = 'utf8')
     self.cursor = self.conn.cursor()
     self.expenditure = None
@@ -13,6 +14,10 @@ class Accounting():
     self.category = ["other"]
     self.medium_category = ["other"]
     self.small_category = ["other"]
+    self.note = None
+
+  def get_note(self):
+    return self.note
 
   def get_expenditure(self):
     return self.expenditure
@@ -32,6 +37,9 @@ class Accounting():
   def get_small_category(self):
     return self.small_category
 
+  def set_note(self,note):
+    self.note = note
+
   def set_expenditure(self,expenditure):
     self.expenditure = expenditure
 
@@ -39,16 +47,16 @@ class Accounting():
     self.incom = income
 
   def set_date(self,date):
-    self.date = date
+    self.set_date = date
 
   def add_category(self, item):
     self.category.insert(len(self.get_category())-1, item)
 
   def add_medium_category(self, item):
-    self.category.insert(len(self.get_medium_category())-1, item)
+    self.medium_category.insert(len(self.get_medium_category())-1, item)
 
   def add_small_category(self, item):
-    self.category.insert(len(self.get_small_cateogry())-1, item)        
+    self.small_category.insert(len(self.get_small_category())-1, item)        
 
   def del_category(self,item):
     if item in self.category is True:
