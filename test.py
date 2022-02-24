@@ -79,3 +79,78 @@ while True:
   break
 
     
+while True:
+  mode = input("Did you make Income or Expenditure?")
+
+  if mode == "Income" or "income":
+    while True:
+      test = True
+      print("!")
+      mode = None
+      break
+
+  elif mode == "Expenditure" or "expenditure":
+    while True:     
+        # Category     
+      print("choose the category")
+      for i in range (0,len(acc.get_category())):
+        print("{num}.{item}".format(num = i + 1, item = acc.get_category()[i]))
+      category = int(input())
+      check_category(acc.get_category(), category)  
+      print("choose the medium category")
+      for j in range (0, len(acc.get_medium_category())):
+        print("{num}.{item}".format(num = j + 1, item = acc.get_medium_category()[j]))
+      medium_category = int(input())  
+      check_medium_category(acc.get_medium_category(), medium_category) 
+      print("Choose the small category")
+      for k in range (0, len(acc.get_small_category())):
+        print("{num}.{item}".format(num = k + 1, item = acc.get_small_category()[k]))
+      small_category = int(input())                                                     
+      check_small_category(acc.get_small_category(), small_category)
+
+        # Date
+      while True:  
+        date = input("When you spend the money?")
+        if check_date(date):
+          acc.set_date(date)
+          break
+        else:
+          print("Your date is wrong please check your date!!")
+
+        # Expenditure_Coast
+      while True:
+        coast_value = int(input("How much is it?"))
+        remote = input("You can't change this coast. this coast is {coast} correct? \n 1.Yes \t 2.No \n".format(coast = coast_value))
+
+        if remote is "1" or "Yes" or "yes":
+          acc.set_expenditure(coast_value)
+          break
+
+        elif remote is "2" or "No" or "no":
+          print("back to the coast page")
+
+        # Note
+      while True:
+        remote = input("Do you wanna note for this expenditure? \n 1.Yes \t 2.No \n")
+
+        if remote is "1" or "Yes" or "yes":
+          note = input("please note \n")
+          if len(note) > 50:
+            print("is it too much please write under the 50 characters")
+          else:
+            acc.set_note(note)
+            break
+        elif remote is "no!" or "No!":
+          break
+
+        print('''
+          Category is {category} \n
+          Medium Category is {M} \n
+          Small Category is {S} \n
+          Date is {D} \n
+          Coast is {C} \n
+          Note {N}
+        '''.format(category = acc.get_category(), M = acc.get_medium_category() , S = acc.get_small_category() , D = acc.get_date(), C = acc.get_expenditure(), N = acc.get_note))
+
+  else:
+    print("please enter correct value ")

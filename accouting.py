@@ -47,7 +47,7 @@ class Accounting():
     self.incom = income
 
   def set_date(self,date):
-    self.set_date = date
+    self.date = date
 
   def add_category(self, item):
     self.category.insert(len(self.get_category())-1, item)
