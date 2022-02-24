@@ -61,68 +61,57 @@ while True:
   mode = input("Did you make Income or Expenditure?")
 
   if mode in ["Expenditure","expenditure","Income","income"]:
-    while True:
-      if mode == "Income" or "income":
-
-        test = True
-
-      # if category == len(category_list):
-      #   acc.add_category(input("what kind of it?"))
-      #   for j in range (len(category_list)):
-      #     print("{num}.{item}".format(num = j + 1, item = category_list[j]))
-      #   category = int(input())
-
-
-
-      elif mode == "expenditure" or "Expenditure":          
-    # Category     
-        print("choose the category")
-        for i in range (0,len(acc.get_category())):
-          print("{num}.{item}".format(num = i + 1, item = acc.get_category()[i]))
-        category = int(input())
-        check_category(acc.get_category(), category)  
-        print("choose the medium category")
-        for j in range (0, len(acc.get_medium_category())):
-          print("{num}.{item}".format(num = j + 1, item = acc.get_medium_category()[j]))
-        medium_category = int(input())  
-        check_medium_category(acc.get_medium_category(), medium_category) 
-        print("Choose the small category")
-        for k in range (0, len(acc.get_small_category())):
-          print("{num}.{item}".format(num = k + 1, item = acc.get_small_category()[k]))
-        small_category = int(input())                                                     
-        check_small_category(acc.get_small_category(), small_category)
-
-      # Date
-        while True:  
-          date = input("When you spend the money?")
-          if check_date(date):
-            acc.set_date(date)
-            break
-          else:
-            print("Your date is wrong please check your date!!")
-
-      # Coast
-        coast_value = int(input("How much is it?"))
-        acc.set_expenditure(coast_value)
-
-        # Note
-        while True:
-          note = input("would you like to leave a note about it??")
-          if len(note) > 50:
-            print("is it too much please write under the 50 characters")
-          elif note is "no!" or "No!":
-            break
-          else:
-            acc.set_note(note)
-            break
-
-
+    break
   else:
     print("please enter correct value ")
-    break
 
-      
 
+
+while True:
+  if mode == "Income" or "income": 
+    test = True
+
+  elif mode == "expenditure" or "Expenditure":          
+    # Category     
+    print("choose the category")
+    for i in range (0,len(acc.get_category())):
+      print("{num}.{item}".format(num = i + 1, item = acc.get_category()[i]))
+    category = int(input())
+    check_category(acc.get_category(), category)  
+    print("choose the medium category")
+    for j in range (0, len(acc.get_medium_category())):
+      print("{num}.{item}".format(num = j + 1, item = acc.get_medium_category()[j]))
+    medium_category = int(input())  
+    check_medium_category(acc.get_medium_category(), medium_category) 
+    print("Choose the small category")
+    for k in range (0, len(acc.get_small_category())):
+      print("{num}.{item}".format(num = k + 1, item = acc.get_small_category()[k]))
+    small_category = int(input())                                                     
+    check_small_category(acc.get_small_category(), small_category)
+
+      # Date
+  while True:  
+    date = input("When you spend the money?")
+    if check_date(date):
+      acc.set_date(date)
+      break
+    else:
+      print("Your date is wrong please check your date!!")
+
+      # Coast
+  coast_value = int(input("How much is it?"))
+  acc.set_expenditure(coast_value)
+
+        # Note
+  while True:
+    note = input("would you like to leave a note about it??")
+    if len(note) > 50:
+      print("is it too much please write under the 50 characters")
+    elif note is "no!" or "No!":
+      break
+    else:
+      acc.set_note(note)
+      break
 
 
     
