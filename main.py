@@ -95,7 +95,7 @@ def income_mode():
 
         # Note
   while True:
-    remote = input("Do you wanna note for this expenditure? \n 1.Yes \t 2.No \n")
+    remote = input("Do you wanna note for this Incom? \n 1.Yes \t 2.No \n")
 
     if remote == "1" or remote == "Yes" or remote == "yes":
       note = input("please note \n")
